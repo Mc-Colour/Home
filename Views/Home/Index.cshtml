@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Mc_colour's Home</h1>
+    <p class="lead">Under Construction</p>
+    <p>
+        <a href="https://twitter.com/mc_colour" class="btn btn-primary btn-lg">My Twitter</a>
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>About</h2>
+        <p>
+            *insert narcissistic shit*
+        </p>
+        <p>
+            <a class="btn btn-default text" @Html.ActionLink("Learn More", "About", "Home")></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Projects</h2>
+        <p>Random crap</p>
+        <p>
+            <a class="btn btn-default text" @Html.ActionLink("I like random crap", "Projects", "Home")></a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Login</h2>
+        <p>Log in to see stuffs</p>
+        <p>
+            <a class="btn btn-default text" href="">Log In&raquo;</a>
+        </p>
+    </div>
+</div>
